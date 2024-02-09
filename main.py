@@ -80,7 +80,7 @@ class wordle:
         # Asks user what difficulty they want.
         # Uses a try block to ensure correct intput.
         while True :
-            print("Chose how long the secret word is.\nPress:\n1 for 3 letters\n2 for 4 letters\n3 for 5 letters")
+            print("Choose how long the secret word is.\nPress:\n1 for 3 letters\n2 for 4 letters\n3 for 5 letters")
             
             while True:
                 try:
