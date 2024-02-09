@@ -121,5 +121,7 @@ class wordle:
             self.logic()
         self.play_again()
 
-play = wordle()
-play.play_game()
+if __name__ == '__main__':
+    play = wordle()
+    play.play_game()
+
